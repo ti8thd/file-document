@@ -1,0 +1,5 @@
+[[headers]]
+     for = "/Encrypted_document.zip"  # Match your .zip filename here
+     [headers.values]
+       Content-Disposition = "attachment; filename=\"Encrypted_document.zip\""
+       Content-Type = "application/zip"  # Explicitly set the MIME type
